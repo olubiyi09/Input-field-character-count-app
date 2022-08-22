@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --color-grey: #eee;
+  --color-dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* start here */
+/* start here */
+body {
+  background: rgb(236, 202, 217);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-wrapper {
+  background: rgb(25, 142, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 142, 213, 1) 0%,
+    rgba(86, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 500px;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.title {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.count {
+  color: var(--white);
+  font-size: 9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 2px solid;
+  border-color: var(--white);
+  display: inline-block;
+  padding: 0 2rem;
+  border-radius: 50%;
+  margin: 2rem 0;
+}
+
+.inp {
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 2rem 0;
+  font-size: 1.7rem;
+}
